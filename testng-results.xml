@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[url:http://apis-laboriosa.resonanzgroup.com/login]]>
     </line>
     <line>
+      <![CDATA[url:http://apis-laboriosa.resonanzgroup.com/login]]>
+    </line>
+    <line>
       <![CDATA[browserName:chrome]]>
+    </line>
+    <line>
+      <![CDATA[driverAgent:null]]>
+    </line>
+    <line>
+      <![CDATA[executionEnvironment:local]]>
+    </line>
+    <line>
+      <![CDATA[browserStackUserName:null]]>
+    </line>
+    <line>
+      <![CDATA[browserStackAuthKey:null]]>
+    </line>
+    <line>
+      <![CDATA[browserStackBrowserVersion:null]]>
+    </line>
+    <line>
+      <![CDATA[browserName:chrome]]>
+    </line>
+    <line>
+      <![CDATA[browserStackOSVersion:null]]>
     </line>
     <line>
       <![CDATA[driverAgent:null]]>
@@ -32,6 +56,18 @@
       <![CDATA[outputPath:output]]>
     </line>
     <line>
+      <![CDATA[os:null]]>
+    </line>
+    <line>
+      <![CDATA[outputPath:output]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: name:-:username]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:name:-:username]]>
+    </line>
+    <line>
       <![CDATA[Finding element using: name:-:username]]>
     </line>
     <line>
@@ -41,10 +77,25 @@
       <![CDATA[Finding element, try1 with locator:name:-:username]]>
     </line>
     <line>
+      <![CDATA[Finding element, try1 with locator:name:-:username]]>
+    </line>
+    <line>
       <![CDATA[Finding element using: name:-:password]]>
     </line>
     <line>
       <![CDATA[Finding element, try0 with locator:name:-:password]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: name:-:password]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:name:-:password]]>
+    </line>
+    <line>
+      <![CDATA[Finding element using: xpath:-://button[text()='Login']]]>
+    </line>
+    <line>
+      <![CDATA[Finding element, try0 with locator:xpath:-://button[text()='Login']]]>
     </line>
     <line>
       <![CDATA[Finding element using: xpath:-://button[text()='Login']]]>
@@ -99,6 +150,9 @@
     </line>
     <line>
       <![CDATA[Finding element, try0 with locator:xpath:-:((//tr)[3]//td//input[@type='number'])[1]]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser Successfully]]>
     </line>
     <line>
       <![CDATA[Finding element using: xpath:-:((//tr)[3]//td//input[@type='number'])[2]]]>
@@ -308,27 +362,23 @@
       <![CDATA[Closing the Browser Successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-09-12T21:21:46 IST" name="Default suite" finished-at="2024-09-12T21:21:55 IST" duration-ms="8204">
+  <suite started-at="2025-07-03T08:15:31 UTC" name="Regression" finished-at="2025-07-03T08:15:51 UTC" duration-ms="19303">
     <groups>
     </groups>
-    <test started-at="2024-09-12T21:21:46 IST" name="Default test" finished-at="2024-09-12T21:21:55 IST" duration-ms="8204">
+    <test started-at="2025-07-03T08:15:31 UTC" name="SignUpValidationTest" finished-at="2025-07-03T08:15:50 UTC" duration-ms="18767">
       <class name="com.shfwd.smokeTest.DashboardTest">
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.shfwd.smokeTest.DashboardTest@24569dba]" started-at="2024-09-12T21:21:46 IST" name="cleanUp" finished-at="2024-09-12T21:21:46 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.shfwd.smokeTest.DashboardTest@24569dba]" started-at="2024-09-12T21:21:46 IST" name="setUp" finished-at="2024-09-12T21:21:47 IST" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.shfwd.smokeTest.DashboardTest@1ffe63b9]" started-at="2025-07-03T08:15:31 UTC" name="setUp" finished-at="2025-07-03T08:15:31 UTC" duration-ms="58" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2822c6ff]]>
+                <![CDATA[org.testng.TestRunner@158da8e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shfwd.smokeTest.DashboardTest@24569dba]" started-at="2024-09-12T21:21:47 IST" name="setUp" finished-at="2024-09-12T21:21:47 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shfwd.smokeTest.DashboardTest@1ffe63b9]" started-at="2025-07-03T08:15:31 UTC" name="setUp" finished-at="2025-07-03T08:15:31 UTC" duration-ms="10" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[url:http://apis-laboriosa.resonanzgroup.com/login]]>
@@ -362,7 +412,103 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="vaueTest()[pri:0, instance:com.shfwd.smokeTest.DashboardTest@24569dba]" started-at="2024-09-12T21:21:47 IST" name="vaueTest" finished-at="2024-09-12T21:21:54 IST" duration-ms="7817" status="PASS">
+        <test-method signature="vaueTest()[pri:0, instance:com.shfwd.smokeTest.DashboardTest@1ffe63b9]" started-at="2025-07-03T08:15:31 UTC" name="vaueTest" finished-at="2025-07-03T08:15:50 UTC" duration-ms="18349" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Finding element using: name:-:username]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:name:-:username]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try1 with locator:name:-:username]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: name:-:password]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:name:-:password]]>
+            </line>
+            <line>
+              <![CDATA[Finding element using: xpath:-://button[text()='Login']]]>
+            </line>
+            <line>
+              <![CDATA[Finding element, try0 with locator:xpath:-://button[text()='Login']]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- vaueTest -->
+        <test-method is-config="true" signature="checkAlerts(org.testng.ITestResult)[pri:0, instance:com.shfwd.smokeTest.DashboardTest@1ffe63b9]" started-at="2025-07-03T08:15:50 UTC" name="checkAlerts" finished-at="2025-07-03T08:15:50 UTC" duration-ms="305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vaueTest status=SUCCESS method=DashboardTest.vaueTest()[pri:0, instance:com.shfwd.smokeTest.DashboardTest@1ffe63b9] output=Finding element using: name:-:username]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAlerts -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.shfwd.smokeTest.DashboardTest@1ffe63b9]" started-at="2025-07-03T08:15:50 UTC" name="quitBrowser" finished-at="2025-07-03T08:15:50 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.shfwd.smokeTest.DashboardTest -->
+    </test> <!-- SignUpValidationTest -->
+    <test started-at="2025-07-03T08:15:31 UTC" name="SignUpValidationTest1" finished-at="2025-07-03T08:15:51 UTC" duration-ms="19301">
+      <class name="com.shfwd.smokeTest.DashboardTest">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.shfwd.smokeTest.DashboardTest@ef9296d]" started-at="2025-07-03T08:15:31 UTC" name="cleanUp" finished-at="2025-07-03T08:15:31 UTC" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.shfwd.smokeTest.DashboardTest@ef9296d]" started-at="2025-07-03T08:15:31 UTC" name="setUp" finished-at="2025-07-03T08:15:31 UTC" duration-ms="60" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6aba2b86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.shfwd.smokeTest.DashboardTest@ef9296d]" started-at="2025-07-03T08:15:31 UTC" name="setUp" finished-at="2025-07-03T08:15:31 UTC" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[url:http://apis-laboriosa.resonanzgroup.com/login]]>
+            </line>
+            <line>
+              <![CDATA[browserName:chrome]]>
+            </line>
+            <line>
+              <![CDATA[driverAgent:null]]>
+            </line>
+            <line>
+              <![CDATA[executionEnvironment:local]]>
+            </line>
+            <line>
+              <![CDATA[browserStackUserName:null]]>
+            </line>
+            <line>
+              <![CDATA[browserStackAuthKey:null]]>
+            </line>
+            <line>
+              <![CDATA[browserStackBrowserVersion:null]]>
+            </line>
+            <line>
+              <![CDATA[browserStackOSVersion:null]]>
+            </line>
+            <line>
+              <![CDATA[os:null]]>
+            </line>
+            <line>
+              <![CDATA[outputPath:output]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="vaueTest()[pri:0, instance:com.shfwd.smokeTest.DashboardTest@ef9296d]" started-at="2025-07-03T08:15:31 UTC" name="vaueTest" finished-at="2025-07-03T08:15:51 UTC" duration-ms="19124" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Finding element using: name:-:username]]>
@@ -639,18 +785,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- vaueTest -->
-        <test-method is-config="true" signature="checkAlerts(org.testng.ITestResult)[pri:0, instance:com.shfwd.smokeTest.DashboardTest@24569dba]" started-at="2024-09-12T21:21:54 IST" name="checkAlerts" finished-at="2024-09-12T21:21:55 IST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="checkAlerts(org.testng.ITestResult)[pri:0, instance:com.shfwd.smokeTest.DashboardTest@ef9296d]" started-at="2025-07-03T08:15:51 UTC" name="checkAlerts" finished-at="2025-07-03T08:15:51 UTC" duration-ms="87" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=vaueTest status=SUCCESS method=DashboardTest.vaueTest()[pri:0, instance:com.shfwd.smokeTest.DashboardTest@24569dba] output=Finding element using: name:-:username]]]>
+                <![CDATA[[TestResult name=vaueTest status=SUCCESS method=DashboardTest.vaueTest()[pri:0, instance:com.shfwd.smokeTest.DashboardTest@ef9296d] output=Finding element using: name:-:username]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAlerts -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.shfwd.smokeTest.DashboardTest@24569dba]" started-at="2024-09-12T21:21:55 IST" name="quitBrowser" finished-at="2024-09-12T21:21:55 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.shfwd.smokeTest.DashboardTest@ef9296d]" started-at="2025-07-03T08:15:51 UTC" name="quitBrowser" finished-at="2025-07-03T08:15:51 UTC" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closing the Browser Successfully]]>
@@ -658,6 +804,6 @@
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- com.shfwd.smokeTest.DashboardTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- SignUpValidationTest1 -->
+  </suite> <!-- Regression -->
 </testng-results>
